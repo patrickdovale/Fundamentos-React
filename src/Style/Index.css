@@ -1,0 +1,21 @@
+body{
+    background-color: #595959;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    font-size: 1.4rem;
+}
+
+h1{
+    font-family: "roboto";
+    text-transform: uppercase;
+    font-weight: lighter;
+    text-shadow: 5px 1px 5px #fff;
+}
+
+.App .cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
