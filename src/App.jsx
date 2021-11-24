@@ -15,14 +15,35 @@ import IndiretaPai from './components/Comunicacao/IndiretaPai';
 import Input from './components/Comunicacao/Formulario/Input';
 import Contador from './components/Contador/Contador';
 import Mega from './components/Mega/Mega';
+import InputsModerno from './components/InputsModerno/InputsModerno';
+import Notification from './components/Notification/Notification';
+import Pagination from './components/Pagination/Pagination';
+import Chart from './components/Chart/Chart';
+
 
 
 export default function App() {
-
+    
     return (
         <div className="App">
             <h1>Fundamentos Básicos React</h1>
             <div className="cards">
+
+                <Card titulo="Grafico(chart.js)">
+                    <Chart />
+                </Card>
+
+                <Card titulo="Paginação Front-End">
+                    <Pagination />
+                </Card>
+
+                <Card titulo="SnackBar">
+                    <Notification/>
+                </Card>
+
+                <Card titulo="Inputs Moderno">
+                    <InputsModerno />
+                </Card>
 
                 <Card titulo="Mega-sena">
                     <Mega />

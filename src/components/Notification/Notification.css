@@ -1,0 +1,35 @@
+.Notification{
+    display: flex;
+    flex-direction: column;
+}
+
+.Notification form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.Notification input{
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: 1px solid #f3a701;
+}
+
+.Notification form input:focus-visible, .Notification input:focus{
+    border: 1px solid #f1ca76 !important;
+}
+
+.Notification form button{
+    padding: 16px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+.Notification form button:hover{
+    padding: 16px;
+    border-radius: 8px;
+    border: 1px solid #f1ca76;
+    background-color: gray;
+    cursor: pointer;
+}
